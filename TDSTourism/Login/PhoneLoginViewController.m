@@ -9,6 +9,7 @@
 #import "PhoneLoginViewController.h"
 #import "PhonePasswordViewController.h"
 #import "PhoneRegisteredViewController.h"
+#import "TDSViewController.h"
 
 @interface PhoneLoginViewController ()
 
@@ -186,7 +187,7 @@
     UIView *whiteView = [[UIView alloc] initWithFrame:CGRectMake(40, kScreenHeight-120, kScreenWidth-80,100)];
     whiteView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:whiteView];
-    NSArray *buttonImages =@[@"fweixin@2x", @"fweixin@2x", @"fweixin@2x"];
+    NSArray *buttonImages =@[@"Group 7@2x", @"Group 4@2x", @"Group 6@2x"];
     NSArray *titleArray = @[@"微信", @"支付宝", @"QQ"];
     
     for (int i = 0; i < 3; i++) {
@@ -219,15 +220,19 @@
 -(void)LoginAction:(UIButton *)btn{
     
     
-    if (![FormatCheck checkTel:self.EmailTextField.text]) {
-        [self showHint:@"手机号不符合"];
-        return;
-    }
+//    if (![FormatCheck checkTel:self.EmailTextField.text]) {
+//        [self showHint:@"手机号不符合"];
+//        return;
+//    }
+//
+//    if (![FormatCheck validatePassword1:self.PassWordTextField.text]) {
+//        [self showHint:@"请输入8位以上字母或数字"];
+//        return;
+//    }
     
-    if (![FormatCheck validatePassword1:self.PassWordTextField.text]) {
-        [self showHint:@"请输入8位以上字母或数字"];
-        return;
-    }
+    TDSViewController *detail= [[TDSViewController alloc]initWithNibName:@"TDSViewController" bundle:[NSBundle mainBundle]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:detail];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 -(void)SwitchAction:(UIButton *)btn{
