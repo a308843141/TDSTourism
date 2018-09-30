@@ -92,6 +92,7 @@
     EmLabel.textColor = [UIColor blackColor];
     [self.view addSubview:EmLabel];
     
+    //测试git是否好使
     UILabel *EmLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20, 90, 77, 16)];
     EmLabel1.text = @"使用邮箱地址111111";
     EmLabel1.font = [UIFont fontWithName:@"PingFangSC-Regular" size:12];
