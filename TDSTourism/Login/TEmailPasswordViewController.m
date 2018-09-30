@@ -125,6 +125,12 @@
 }
 
 -(void)LoginAction:(UIButton *)btn{
+    
+    //    if (![FormatCheck validateEmail:self.EmailTextField.text]) {
+    //        [self showHint:@"邮箱不符合"];
+    //        return;
+    //    }
+    
     ValidationEmailViewController *vcv = [[ValidationEmailViewController alloc] init];
     vcv.EmStr = @"1";
     [self.navigationController pushViewController:vcv animated:YES];

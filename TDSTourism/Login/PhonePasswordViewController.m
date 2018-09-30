@@ -144,6 +144,12 @@
 
 
 -(void)LoginAction:(UIButton *)btn{
+    
+    //    if (![FormatCheck checkTel:self.EmailTextField.text]) {
+    //        [self showHint:@"手机号不符合"];
+    //        return;
+    //    }
+    
     ValidationPhoneViewController *vcv = [[ValidationPhoneViewController alloc] init];
     vcv.VpStr = @"1";
     [self.navigationController pushViewController:vcv animated:YES];

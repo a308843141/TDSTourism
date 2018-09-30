@@ -165,6 +165,11 @@
 }
 
 -(void)RegistAction:(UIButton *)RegistAction {
+    
+    if (![FormatCheck validateEmail:self.EmailTextField.text]) {
+        [self showHint:@"邮箱不符合"];
+        return;
+    }
     NSLog(@"RegistAction");
     ValidationEmailViewController* vpvc = [[ValidationEmailViewController alloc] init];
     vpvc.EmStr = @"2";

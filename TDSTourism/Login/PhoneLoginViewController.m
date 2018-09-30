@@ -218,6 +218,16 @@
 
 -(void)LoginAction:(UIButton *)btn{
     
+    
+    if (![FormatCheck checkTel:self.EmailTextField.text]) {
+        [self showHint:@"手机号不符合"];
+        return;
+    }
+    
+    if (![FormatCheck validatePassword1:self.PassWordTextField.text]) {
+        [self showHint:@"请输入8位以上字母或数字"];
+        return;
+    }
 }
 
 -(void)SwitchAction:(UIButton *)btn{

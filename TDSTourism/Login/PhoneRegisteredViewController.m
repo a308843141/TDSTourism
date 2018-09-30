@@ -185,6 +185,11 @@
 }
 
 -(void)RegistAction:(UIButton *)RegistAction {
+    
+    if (![FormatCheck checkTel:self.EmailTextField.text]) {
+        [self showHint:@"手机号不符合"];
+        return;
+    }
     NSLog(@"RegistAction");
     ValidationPhoneViewController *vpvc = [[ValidationPhoneViewController alloc] init];
     vpvc.VpStr = @"2";

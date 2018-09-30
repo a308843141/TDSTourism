@@ -92,12 +92,6 @@
     EmLabel.textColor = [UIColor blackColor];
     [self.view addSubview:EmLabel];
     
-    //测试git是否好使
-    UILabel *EmLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20, 90, 77, 16)];
-    EmLabel1.text = @"使用邮箱地址111111";
-    EmLabel1.font = [UIFont fontWithName:@"PingFangSC-Regular" size:12];
-    EmLabel1.textColor = [UIColor blackColor];
-    [self.view addSubview:EmLabel1];
     
     self.EmailTextField = [[UITextField alloc] initWithFrame:CGRectMake(20,CGRectGetMaxY(EmLabel.frame)+12, kScreenWidth - 40, 30)];
     self.EmailTextField.font = [UIFont systemFontOfSize:15];
@@ -207,6 +201,16 @@
 //}
 
 -(void)LoginAction:(UIButton *)btn{
+    
+    if (![FormatCheck validateEmail:self.EmailTextField.text]) {
+        [self showHint:@"邮箱不符合"];
+        return;
+    }
+    
+    if (![FormatCheck validatePassword1:self.PassWordTextField.text]) {
+        [self showHint:@"请输入8位以上字母或数字"];
+        return;
+    }
     
 }
 
