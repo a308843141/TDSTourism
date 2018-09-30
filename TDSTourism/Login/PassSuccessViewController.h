@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PassSuccessViewController : BaseViewController
 
+@property(nonatomic,strong)NSString *Str;
+
 @end
 
 NS_ASSUME_NONNULL_END

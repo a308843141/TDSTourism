@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ValidationEmailViewController : BaseViewController
 
+//1是邮箱密码找回2是创建密码
+@property(nonatomic,strong)NSString *EmStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

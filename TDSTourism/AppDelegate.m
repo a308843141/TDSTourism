@@ -7,16 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "TDSViewController.h"
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "RegisteredViewController.h"
+#import "LoginViewController.h"
+
 
 @interface AppDelegate ()
+
+@property (nonatomic,strong)TDSViewController *TDS;
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    LoginViewController *rvc = [[LoginViewController alloc] init];
+    
+    UINavigationController *nnn = [[UINavigationController alloc] initWithRootViewController:rvc];
+    
+    
+        self.window.rootViewController = nnn;
+    
+//    self.TDS = [[TDSViewController alloc] init];
+//
+//    self.window.rootViewController = self.TDS;
+    
     return YES;
 }
 

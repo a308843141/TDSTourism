@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CPasswordResetViewController : BaseViewController
 
+//1邮箱2手机号
+@property(nonatomic,strong)NSString *CpStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

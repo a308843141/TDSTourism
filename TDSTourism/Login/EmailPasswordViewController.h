@@ -10,4 +10,7 @@
 
 @interface EmailPasswordViewController : BaseViewController
 
+//跳转1push或者2pop
+@property(nonatomic,strong)NSString *Emstr;
+
 @end

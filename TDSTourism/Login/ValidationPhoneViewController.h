@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ValidationPhoneViewController : BaseViewController
 
+//1手机忘记密码2手机注册
+@property(nonatomic,strong)NSString *VpStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

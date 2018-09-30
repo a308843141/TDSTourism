@@ -17,7 +17,7 @@
  *  单击图像时调用
  *
  *  @param zoomingScrollView 图片缩放视图
- *  @param touch             用户单击的UITouch对象
+ *  @ param to u ch             用户单击的 UI To uch对象
  */
 - (void)zoomingScrollView:(XLZoomingScrollView *)zoomingScrollView singleTapDetected:(UITapGestureRecognizer *)singleTap;
 /**

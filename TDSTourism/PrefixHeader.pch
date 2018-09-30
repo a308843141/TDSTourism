@@ -9,6 +9,47 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+//请求网址
+#define baseUrl  @"http://192.168.1.157/"
+
+#import "LMHttpRequest.h"
+#import "FormatCheck.h"
+#import "UIViewController+HUD.h"
+//#import "WXApi.h"
+//#import "WXApiManager.h"
+
+#import "CC_Request.h"
+
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+
+
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+
+#define UID [[NSUserDefaults standardUserDefaults]objectForKey:@"uid"]//用户 uid
+#define Token [[NSUserDefaults standardUserDefaults]objectForKey:@"token"]//用户 token
+#define Dyc [[NSUserDefaults standardUserDefaults]objectForKey:@"Dyc"]//用户 记录第一次登陆 购物车去逛逛返回分类
+#define DeviceId [[NSUserDefaults standardUserDefaults]objectForKey:@"getDeviceId"]//用户 手机设备id
+#define HFCode [[NSUserDefaults standardUserDefaults]objectForKey:@"HFCode"]
+
+
+//#define appId @"wx189c2af01340e961"
+//#define secret @"a498f41a25f1fcec23897a0aaf9955d4"
+
+#define HEIGHT(f) f * ([UIScreen mainScreen].bounds.size.width/320.0)
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define rgba(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define kMenuHeight 44
+#define DeviceSize [UIScreen mainScreen].bounds.size
+
+#define CC_GColor  colorWithRed:251.0/255 green:166.0/255 blue:27.0/255 alpha:1
+
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define NSLog(FORMAT, ...) fprintf(stderr,"☀️【%s:%d行】☀️ %s\n %s\n\n\n\n\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __func__,[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
