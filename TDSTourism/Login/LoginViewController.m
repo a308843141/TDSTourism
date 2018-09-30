@@ -92,6 +92,12 @@
     EmLabel.textColor = [UIColor blackColor];
     [self.view addSubview:EmLabel];
     
+    UILabel *EmLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20, 90, 77, 16)];
+    EmLabel1.text = @"使用邮箱地址111111";
+    EmLabel1.font = [UIFont fontWithName:@"PingFangSC-Regular" size:12];
+    EmLabel1.textColor = [UIColor blackColor];
+    [self.view addSubview:EmLabel1];
+    
     self.EmailTextField = [[UITextField alloc] initWithFrame:CGRectMake(20,CGRectGetMaxY(EmLabel.frame)+12, kScreenWidth - 40, 30)];
     self.EmailTextField.font = [UIFont systemFontOfSize:15];
     self.EmailTextField.placeholder = @"请输入邮箱地址";
