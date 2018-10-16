@@ -35,10 +35,11 @@
     
     
     HomeViewController *payC = [[HomeViewController alloc] init];
-    UINavigationController *payNav = [[UINavigationController alloc] initWithRootViewController:payC];
+//    UINavigationController *payNav = [[UINavigationController alloc] initWithRootViewController:payC];
     payC.title = @"首页";
     payC.tabBarItem.image = [UIImage imageNamed:@"frontpage_normal"];
     payC.tabBarItem.selectedImage = [UIImage imageNamed:@"frontpage_select"];
+    
     
     DeliveryViewController *searchC = [[DeliveryViewController alloc] init];
     searchC.title = @"发货";
@@ -64,7 +65,7 @@
     //    UINavigationController *MineNav = [[UINavigationController alloc] initWithRootViewController:MinetC];
     MinetC.tabBarItem.image = [UIImage imageNamed:@"personal_center_normal"];
     MinetC.tabBarItem.selectedImage = [UIImage imageNamed:@"personal_center_select"];
-    self.viewControllers = @[payNav,sarchNav,wishNav,accountNav,MinetC];
+    self.viewControllers = @[payC,sarchNav,wishNav,accountNav,MinetC];
     //    self.tabBarController.view.height = 140;
 }
 

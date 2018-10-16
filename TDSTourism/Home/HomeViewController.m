@@ -2,8 +2,8 @@
 //  HomeViewController.m
 //  TDSTourism
 //
-//  Created by qpple on 2018/9/4.
-//  Copyright © 2018年 qpple. All rights reserved.
+//  Created by qpple on 2018/10/16.
+//  Copyright © 2018 qpple. All rights reserved.
 //
 
 #import "HomeViewController.h"
@@ -22,18 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title =@"途点啥-您的跨国寄运专家";
     
     self.banner_image_url = @[@"WechatIMG13",@"frontpage_normal@2x",@"personal_center_select",@"send_out_select@2x",@"traveller_select@2x"];
     
     [self CreateUI];
-    //  @{@"home-t@2x",@"分类"};
-    
 }
 
 -(void)CreateUI{
-    UIView *viewAll = [[UIView alloc] initWithFrame:CGRectMake(0, 24, kScreenWidth, 170)];
+    UIView *viewAll = [[UIView alloc] initWithFrame:CGRectMake(0, -49, kScreenWidth, 230)];
     
     
     if (self.banner_image_url.count == 1) {
@@ -60,13 +56,8 @@
 {
     NSLog(@"---点击了第%ld张图片", (long)index);
     //    NSString *idStr = self.banner_id[index];
-   
     
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 /*

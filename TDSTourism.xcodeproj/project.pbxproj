@@ -49,7 +49,6 @@
 		08D65BCC213E23D100492DB7 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BC8213E23D100492DB7 /* SDCycleScrollView.m */; };
 		08D65BCD213E23D100492DB7 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BCA213E23D100492DB7 /* UIView+SDExtension.m */; };
 		08D65BEA213E356D00492DB7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BE9213E356D00492DB7 /* BaseViewController.m */; };
-		08D65BF3213E3E2000492DB7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BF2213E3E2000492DB7 /* HomeViewController.m */; };
 		08D65BF6213E3E9A00492DB7 /* DeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BF5213E3E9A00492DB7 /* DeliveryViewController.m */; };
 		08D65BF9213E3F0C00492DB7 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BF8213E3F0C00492DB7 /* TravelViewController.m */; };
 		08D65BFC213E3F2400492DB7 /* WishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D65BFB213E3F2400492DB7 /* WishViewController.m */; };
@@ -205,6 +204,7 @@
 		08D7E710213B83D300BAAB19 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D7E70F213B83D300BAAB19 /* CFNetwork.framework */; };
 		08D7E712213B83E500BAAB19 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D7E711213B83E500BAAB19 /* CoreMotion.framework */; };
 		08EC53412150A0780008D4FA /* RegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EC53402150A0780008D4FA /* RegisteredViewController.m */; };
+		08FD34832175D65400E7F2B4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD34822175D65400E7F2B4 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,8 +287,6 @@
 		08D65BCA213E23D100492DB7 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		08D65BE8213E356D00492DB7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		08D65BE9213E356D00492DB7 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		08D65BF1213E3E2000492DB7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		08D65BF2213E3E2000492DB7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		08D65BF4213E3E9A00492DB7 /* DeliveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryViewController.h; sourceTree = "<group>"; };
 		08D65BF5213E3E9A00492DB7 /* DeliveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryViewController.m; sourceTree = "<group>"; };
 		08D65BF7213E3F0C00492DB7 /* TravelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelViewController.h; sourceTree = "<group>"; };
@@ -629,6 +627,8 @@
 		08D7E711213B83E500BAAB19 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		08EC533F2150A0780008D4FA /* RegisteredViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteredViewController.h; sourceTree = "<group>"; };
 		08EC53402150A0780008D4FA /* RegisteredViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisteredViewController.m; sourceTree = "<group>"; };
+		08FD34812175D65400E7F2B4 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		08FD34822175D65400E7F2B4 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -737,8 +737,8 @@
 		08D65BB0213E1C5200492DB7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				08D65BF1213E3E2000492DB7 /* HomeViewController.h */,
-				08D65BF2213E3E2000492DB7 /* HomeViewController.m */,
+				08FD34812175D65400E7F2B4 /* HomeViewController.h */,
+				08FD34822175D65400E7F2B4 /* HomeViewController.m */,
 			);
 			name = Home;
 			path = TDSTourism/Home;
@@ -1678,6 +1678,7 @@
 				08D7E60C213B7CAE00BAAB19 /* FSActionSheet.m in Sources */,
 				08D7E5AB213B7CA200BAAB19 /* AFURLSessionManager.m in Sources */,
 				08D65BBF213E1D7A00492DB7 /* MineViewController.m in Sources */,
+				08FD34832175D65400E7F2B4 /* HomeViewController.m in Sources */,
 				08D7E6F7213B82FF00BAAB19 /* MD5DataSigner.m in Sources */,
 				08B9099B2154880400C92225 /* LoginViewController.m in Sources */,
 				08D65C0E213E500500492DB7 /* CommonUtil.m in Sources */,
@@ -1689,7 +1690,6 @@
 				08D7E54E213B78C900BAAB19 /* ViewController.m in Sources */,
 				08D7E674213B7CDA00BAAB19 /* MJRefreshAutoNormalFooter.m in Sources */,
 				083CB73C215B785700CF511C /* PhoneLoginViewController.m in Sources */,
-				08D65BF3213E3E2000492DB7 /* HomeViewController.m in Sources */,
 				08D7E5B0213B7CA200BAAB19 /* UIButton+AFNetworking.m in Sources */,
 				08D7E680213B7CDA00BAAB19 /* UIView+MJExtension.m in Sources */,
 				08D7E617213B7CAE00BAAB19 /* NSData+ImageContentType.m in Sources */,

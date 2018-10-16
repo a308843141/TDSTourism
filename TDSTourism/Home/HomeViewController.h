@@ -2,12 +2,16 @@
 //  HomeViewController.h
 //  TDSTourism
 //
-//  Created by qpple on 2018/9/4.
-//  Copyright © 2018年 qpple. All rights reserved.
+//  Created by qpple on 2018/10/16.
+//  Copyright © 2018 qpple. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface HomeViewController : BaseViewController
+NS_ASSUME_NONNULL_BEGIN
+
+@interface HomeViewController : UIViewController
 
 @end
+
+NS_ASSUME_NONNULL_END
