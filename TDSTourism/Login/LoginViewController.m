@@ -215,10 +215,16 @@
 //        return;
 //    }
     
-    TDSViewController *detail= [[TDSViewController alloc]initWithNibName:@"TDSViewController" bundle:[NSBundle mainBundle]];
-            UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:detail];
-    [self presentViewController:nav animated:YES completion:nil];
     
+    
+    TDSViewController *TDvc = [[ TDSViewController alloc] init];
+    [self presentViewController:TDvc animated:YES completion:nil];
+
+    
+//    TDSViewController *detail= [[TDSViewController alloc]initWithNibName:@"TDSViewController" bundle:[NSBundle mainBundle]];
+//            UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:detail];
+//    [self presentViewController:nav animated:YES completion:nil];
+//
 }
 
 -(void)SwitchAction:(UIButton *)btn{
