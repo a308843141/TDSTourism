@@ -739,12 +739,12 @@
 		08294BCA21773CA600108B6A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				08294BCB21773CA600108B6A /* HomeViewController.m */,
-				08294BCC21773CA600108B6A /* EatHomeListViewController.m */,
-				08294BCD21773CA600108B6A /* EatHomeViewController.m */,
-				08294BCE21773CA700108B6A /* EatHomeListViewController.h */,
 				08294BCF21773CA700108B6A /* HomeViewController.h */,
+				08294BCB21773CA600108B6A /* HomeViewController.m */,
+				08294BCE21773CA700108B6A /* EatHomeListViewController.h */,
+				08294BCC21773CA600108B6A /* EatHomeListViewController.m */,
 				08294BD021773CA700108B6A /* EatHomeViewController.h */,
+				08294BCD21773CA600108B6A /* EatHomeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
