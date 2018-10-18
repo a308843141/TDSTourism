@@ -28,30 +28,29 @@
 -(void)createui{
 
     
-    _webView = [[UIWebView alloc] init];
-//                WithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
-//    _webView.dataDetectorTypes = UIDataDetectorTypeAll;
-    _webView.delegate = self;
+    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    _webView.dataDetectorTypes = UIDataDetectorTypeAll;
+    
     // 2.创建URL
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://192.168.1.111/article/3"]];
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://192.168.1.111/article/5"]];
 //    NSURL *url =[NSURL URLWithString:self.UrlStr];
     // 3.创建Request
     NSURLRequest *request =[NSURLRequest requestWithURL:url];
     // 4.加载网页
     [_webView loadRequest:request];
-
+    
     [self.view addSubview:_webView];
     
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView //网页加载完成的时候调用
-{
-    CGRect frame = _webView.frame;
-    CGSize fittingSize = [webView sizeThatFits:CGSizeZero];
-    frame.size = fittingSize;
-    _webView.frame = frame;
-    
-}
+//- (void)webViewDidFinishLoad:(UIWebView *)webView //网页加载完成的时候调用
+//{
+//    CGRect frame = _webView.frame;
+//    CGSize fittingSize = [webView sizeThatFits:CGSizeZero];
+//    frame.size = fittingSize;
+//    _webView.frame = frame;
+//
+//}
 
 
 - (void)addNavViews{
