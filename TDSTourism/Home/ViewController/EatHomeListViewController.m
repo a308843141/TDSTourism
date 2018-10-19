@@ -33,7 +33,8 @@
     [self addNavViews];
     
     //间隙
-    UIBarButtonItem *fixedSpaceBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil]; fixedSpaceBarButtonItem.width = 10;
+    UIBarButtonItem *fixedSpaceBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    fixedSpaceBarButtonItem.width = 10;
     self.navigationItem.rightBarButtonItems = @[self.messageBtn,fixedSpaceBarButtonItem,self.mapBtn];
     [self.view addSubview:self.WCounonTableView];
 }
