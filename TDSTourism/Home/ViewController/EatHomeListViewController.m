@@ -39,8 +39,6 @@
     [self.view addSubview:self.WCounonTableView];
 }
 
-
-
 - (void)addNavViews{
     
     // 返回按钮
@@ -182,12 +180,6 @@
     return _messageBtn;
     
 }
-
-
-
-
-
-
 
 
 

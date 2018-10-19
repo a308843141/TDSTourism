@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0817A1DC217967EC00C5D4AD /* DeliveryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1DB217967EC00C5D4AD /* DeliveryCell.m */; };
+		0817A1DF2179680A00C5D4AD /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1DE2179680A00C5D4AD /* DeliveryModel.m */; };
+		0817A1E22179682A00C5D4AD /* TravelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1E12179682A00C5D4AD /* TravelModel.m */; };
+		0817A1E52179683E00C5D4AD /* TravelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1E42179683E00C5D4AD /* TravelCell.m */; };
+		0817A1E82179685200C5D4AD /* WishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1E72179685200C5D4AD /* WishCell.m */; };
+		0817A1EB2179686300C5D4AD /* WishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1EA2179686300C5D4AD /* WishModel.m */; };
+		0817A1EE2179688800C5D4AD /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1ED2179688800C5D4AD /* MineCell.m */; };
+		0817A1F1217968A500C5D4AD /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1F0217968A500C5D4AD /* MineModel.m */; };
+		0818109E2178716500D02E77 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0818109D2178716500D02E77 /* MessageViewController.m */; };
+		081810A22178720400D02E77 /* 消息无@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0818109F2178720400D02E77 /* 消息无@3x.png */; };
+		081810A32178720400D02E77 /* 消息无.png in Resources */ = {isa = PBXBuildFile; fileRef = 081810A02178720400D02E77 /* 消息无.png */; };
+		081810A42178720400D02E77 /* 消息无@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 081810A12178720400D02E77 /* 消息无@2x.png */; };
+		081810A72178854400D02E77 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 081810A62178854400D02E77 /* MessageModel.m */; };
+		081810AA2178856100D02E77 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 081810A92178856100D02E77 /* MessageCell.m */; };
+		081810AE21788E2700D02E77 /* 消息头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 081810AB21788E2700D02E77 /* 消息头像@3x.png */; };
+		081810AF21788E2700D02E77 /* 消息头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 081810AC21788E2700D02E77 /* 消息头像.png */; };
+		081810B021788E2700D02E77 /* 消息头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 081810AD21788E2700D02E77 /* 消息头像@2x.png */; };
 		081B5872215C669F00BD9C06 /* ValidationEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5871215C669F00BD9C06 /* ValidationEmailViewController.m */; };
 		081B5875215C730000BD9C06 /* PasswordResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5874215C730000BD9C06 /* PasswordResetViewController.m */; };
 		081B5878215C780300BD9C06 /* PassSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5877215C780300BD9C06 /* PassSuccessViewController.m */; };
@@ -247,6 +264,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0817A1DA217967EC00C5D4AD /* DeliveryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCell.h; sourceTree = "<group>"; };
+		0817A1DB217967EC00C5D4AD /* DeliveryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCell.m; sourceTree = "<group>"; };
+		0817A1DD2179680A00C5D4AD /* DeliveryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryModel.h; sourceTree = "<group>"; };
+		0817A1DE2179680A00C5D4AD /* DeliveryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryModel.m; sourceTree = "<group>"; };
+		0817A1E02179682A00C5D4AD /* TravelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelModel.h; sourceTree = "<group>"; };
+		0817A1E12179682A00C5D4AD /* TravelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelModel.m; sourceTree = "<group>"; };
+		0817A1E32179683E00C5D4AD /* TravelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelCell.h; sourceTree = "<group>"; };
+		0817A1E42179683E00C5D4AD /* TravelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelCell.m; sourceTree = "<group>"; };
+		0817A1E62179685200C5D4AD /* WishCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishCell.h; sourceTree = "<group>"; };
+		0817A1E72179685200C5D4AD /* WishCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishCell.m; sourceTree = "<group>"; };
+		0817A1E92179686300C5D4AD /* WishModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishModel.h; sourceTree = "<group>"; };
+		0817A1EA2179686300C5D4AD /* WishModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishModel.m; sourceTree = "<group>"; };
+		0817A1EC2179688800C5D4AD /* MineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		0817A1ED2179688800C5D4AD /* MineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
+		0817A1EF217968A500C5D4AD /* MineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
+		0817A1F0217968A500C5D4AD /* MineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
+		0818109C2178716500D02E77 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		0818109D2178716500D02E77 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		0818109F2178720400D02E77 /* 消息无@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息无@3x.png"; sourceTree = "<group>"; };
+		081810A02178720400D02E77 /* 消息无.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息无.png"; sourceTree = "<group>"; };
+		081810A12178720400D02E77 /* 消息无@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息无@2x.png"; sourceTree = "<group>"; };
+		081810A52178854400D02E77 /* MessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		081810A62178854400D02E77 /* MessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		081810A82178856100D02E77 /* MessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		081810A92178856100D02E77 /* MessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		081810AB21788E2700D02E77 /* 消息头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息头像@3x.png"; sourceTree = "<group>"; };
+		081810AC21788E2700D02E77 /* 消息头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息头像.png"; sourceTree = "<group>"; };
+		081810AD21788E2700D02E77 /* 消息头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息头像@2x.png"; sourceTree = "<group>"; };
 		081B5870215C669F00BD9C06 /* ValidationEmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationEmailViewController.h; sourceTree = "<group>"; };
 		081B5871215C669F00BD9C06 /* ValidationEmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationEmailViewController.m; sourceTree = "<group>"; };
 		081B5873215C730000BD9C06 /* PasswordResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordResetViewController.h; sourceTree = "<group>"; };
@@ -729,9 +774,11 @@
 			isa = PBXGroup;
 			children = (
 				08294BC621773CA600108B6A /* HomeCell.h */,
-				08294BC721773CA600108B6A /* EatListCell.m */,
 				08294BC821773CA600108B6A /* HomeCell.m */,
 				08294BC921773CA600108B6A /* EatListCell.h */,
+				08294BC721773CA600108B6A /* EatListCell.m */,
+				081810A82178856100D02E77 /* MessageCell.h */,
+				081810A92178856100D02E77 /* MessageCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -745,6 +792,8 @@
 				08294BCC21773CA600108B6A /* EatHomeListViewController.m */,
 				08294BD021773CA700108B6A /* EatHomeViewController.h */,
 				08294BCD21773CA600108B6A /* EatHomeViewController.m */,
+				0818109C2178716500D02E77 /* MessageViewController.h */,
+				0818109D2178716500D02E77 /* MessageViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -753,9 +802,11 @@
 			isa = PBXGroup;
 			children = (
 				08294BD221773CA700108B6A /* HomeModel.h */,
-				08294BD321773CA700108B6A /* EatModel.h */,
 				08294BD421773CA700108B6A /* HomeModel.m */,
+				08294BD321773CA700108B6A /* EatModel.h */,
 				08294BD521773CA700108B6A /* EatModel.m */,
+				081810A52178854400D02E77 /* MessageModel.h */,
+				081810A62178854400D02E77 /* MessageModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -763,6 +814,8 @@
 		08294BDD21773CAE00108B6A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1DA217967EC00C5D4AD /* DeliveryCell.h */,
+				0817A1DB217967EC00C5D4AD /* DeliveryCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -779,6 +832,8 @@
 		08294BE121773CAF00108B6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1DD2179680A00C5D4AD /* DeliveryModel.h */,
+				0817A1DE2179680A00C5D4AD /* DeliveryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -786,6 +841,8 @@
 		08294BE321773CB600108B6A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1E32179683E00C5D4AD /* TravelCell.h */,
+				0817A1E42179683E00C5D4AD /* TravelCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -793,6 +850,8 @@
 		08294BE421773CB600108B6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1E02179682A00C5D4AD /* TravelModel.h */,
+				0817A1E12179682A00C5D4AD /* TravelModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -809,6 +868,8 @@
 		08294BE921773CBD00108B6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1E92179686300C5D4AD /* WishModel.h */,
+				0817A1EA2179686300C5D4AD /* WishModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -825,6 +886,8 @@
 		08294BED21773CBD00108B6A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1E62179685200C5D4AD /* WishCell.h */,
+				0817A1E72179685200C5D4AD /* WishCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -841,6 +904,8 @@
 		08294BF221773CC500108B6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1EF217968A500C5D4AD /* MineModel.h */,
+				0817A1F0217968A500C5D4AD /* MineModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -848,6 +913,8 @@
 		08294BF321773CC500108B6A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0817A1EC2179688800C5D4AD /* MineCell.h */,
+				0817A1ED2179688800C5D4AD /* MineCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -901,6 +968,12 @@
 		08294C3721773D5400108B6A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				081810AC21788E2700D02E77 /* 消息头像.png */,
+				081810AD21788E2700D02E77 /* 消息头像@2x.png */,
+				081810AB21788E2700D02E77 /* 消息头像@3x.png */,
+				081810A02178720400D02E77 /* 消息无.png */,
+				081810A12178720400D02E77 /* 消息无@2x.png */,
+				0818109F2178720400D02E77 /* 消息无@3x.png */,
 				08294C3821773D5400108B6A /* 地理坐标.png */,
 				08294C3921773D5400108B6A /* Group 4.png */,
 				08294C3A21773D5400108B6A /* home-pic@2x.png */,
@@ -1815,6 +1888,7 @@
 				08294C6E21773D5400108B6A /* personal_center_select@2x.png in Resources */,
 				08294C8D21773D5400108B6A /* home-hong@2x.png in Resources */,
 				08294C5E21773D5400108B6A /* frontpage_select.png in Resources */,
+				081810B021788E2700D02E77 /* 消息头像@2x.png in Resources */,
 				08294C6B21773D5400108B6A /* traveller_select@3x.png in Resources */,
 				08294C6221773D5400108B6A /* send_out_select.png in Resources */,
 				08D65C0C213E500500492DB7 /* README.txt in Resources */,
@@ -1835,12 +1909,16 @@
 				08D7E629213B7CAE00BAAB19 /* addImage@2x.jpg in Resources */,
 				08294C5F21773D5400108B6A /* traveller_select.png in Resources */,
 				08294C8F21773D5400108B6A /* home-jinru@3x.png in Resources */,
+				081810A22178720400D02E77 /* 消息无@3x.png in Resources */,
+				081810AE21788E2700D02E77 /* 消息头像@3x.png in Resources */,
 				08294C7921773D5400108B6A /* wishpond_normal.png in Resources */,
 				08294C7621773D5400108B6A /* frontpage_normal@2x.png in Resources */,
 				08294C9621773D5400108B6A /* fuxuankuang-click@3x.png in Resources */,
 				08294C9921773D5400108B6A /* Group 7@2x.png in Resources */,
+				081810AF21788E2700D02E77 /* 消息头像.png in Resources */,
 				08294C6C21773D5400108B6A /* wishpond_select.png in Resources */,
 				08294C9F21773D5400108B6A /* home-jinru.png in Resources */,
+				081810A42178720400D02E77 /* 消息无@2x.png in Resources */,
 				08D7E611213B7CAE00BAAB19 /* FSActionSheet_cancel@3x.png in Resources */,
 				08D7E686213B7DB600BAAB19 /* MBProgressHUD.bundle in Resources */,
 				08294C8C21773D5400108B6A /* home-lingdang.png in Resources */,
@@ -1849,6 +1927,7 @@
 				08294C9D21773D5400108B6A /* fuxuankuang@3x.png in Resources */,
 				08294C7E21773D5400108B6A /* home-pic@2x.png in Resources */,
 				08294C8721773D5400108B6A /* home-lingdang2x.png in Resources */,
+				081810A32178720400D02E77 /* 消息无.png in Resources */,
 				08D7E67C213B7CDA00BAAB19 /* MJRefresh.bundle in Resources */,
 				08294C8A21773D5400108B6A /* fuxuankuang.png in Resources */,
 			);
@@ -1886,11 +1965,13 @@
 				08D7E625213B7CAE00BAAB19 /* UIView+WebCacheOperation.m in Sources */,
 				08D7E616213B7CAE00BAAB19 /* MKAnnotationView+WebCache.m in Sources */,
 				08D7E607213B7CAE00BAAB19 /* MKComposePhotosView.m in Sources */,
+				081810A72178854400D02E77 /* MessageModel.m in Sources */,
 				081B58B2215DC31300BD9C06 /* TPhoneRegisteredViewController.m in Sources */,
 				08D7E6F8213B82FF00BAAB19 /* NSDataEx.m in Sources */,
 				08D7E687213B7DB600BAAB19 /* MBProgressHUD.m in Sources */,
 				08D7E5B2213B7CA200BAAB19 /* UIProgressView+AFNetworking.m in Sources */,
 				081B58AC215DBE2300BD9C06 /* PhoneRegisteredViewController.m in Sources */,
+				0817A1DC217967EC00C5D4AD /* DeliveryCell.m in Sources */,
 				08294BE821773CB600108B6A /* TravelViewController.m in Sources */,
 				08D7E60C213B7CAE00BAAB19 /* FSActionSheet.m in Sources */,
 				08D7E5AB213B7CA200BAAB19 /* AFURLSessionManager.m in Sources */,
@@ -1898,6 +1979,7 @@
 				08B9099B2154880400C92225 /* LoginViewController.m in Sources */,
 				08D65C0E213E500500492DB7 /* CommonUtil.m in Sources */,
 				08D7E621213B7CAE00BAAB19 /* UIImage+MultiFormat.m in Sources */,
+				081810AA2178856100D02E77 /* MessageCell.m in Sources */,
 				081B589E215DAEF000BD9C06 /* TEmailPasswordViewController.m in Sources */,
 				08D65BCD213E23D100492DB7 /* UIView+SDExtension.m in Sources */,
 				08D7E5B4213B7CA200BAAB19 /* UIWebView+AFNetworking.m in Sources */,
@@ -1909,17 +1991,20 @@
 				08D7E680213B7CDA00BAAB19 /* UIView+MJExtension.m in Sources */,
 				08D7E617213B7CAE00BAAB19 /* NSData+ImageContentType.m in Sources */,
 				08D7E620213B7CAE00BAAB19 /* UIImage+GIF.m in Sources */,
+				0818109E2178716500D02E77 /* MessageViewController.m in Sources */,
 				081B58B5215DC88B00BD9C06 /* CPasswordResetViewController.m in Sources */,
 				08D7E67F213B7CDA00BAAB19 /* UIScrollView+MJRefresh.m in Sources */,
 				08D7E627213B7CAE00BAAB19 /* XLProgressView.m in Sources */,
 				08D65BC2213E1DFD00492DB7 /* TDSViewController.m in Sources */,
 				08D65BCB213E23D100492DB7 /* SDCollectionViewCell.m in Sources */,
+				0817A1F1217968A500C5D4AD /* MineModel.m in Sources */,
 				08D7E559213B78C900BAAB19 /* main.m in Sources */,
 				08294BD921773CA700108B6A /* EatHomeListViewController.m in Sources */,
 				08D7E61B213B7CAE00BAAB19 /* SDWebImageDownloader.m in Sources */,
 				081B5875215C730000BD9C06 /* PasswordResetViewController.m in Sources */,
 				081B58AF215DC2D300BD9C06 /* TRegisteredViewController.m in Sources */,
 				08D7E678213B7CDA00BAAB19 /* MJRefreshBackStateFooter.m in Sources */,
+				0817A1EB2179686300C5D4AD /* WishModel.m in Sources */,
 				08D7E671213B7CDA00BAAB19 /* MJRefreshFooter.m in Sources */,
 				08294BDB21773CA700108B6A /* HomeModel.m in Sources */,
 				08D7E619213B7CAE00BAAB19 /* SDWebImageCompat.m in Sources */,
@@ -1934,6 +2019,9 @@
 				08D7E60B213B7CAE00BAAB19 /* UIView+XLExtension.m in Sources */,
 				08D7E61A213B7CAE00BAAB19 /* SDWebImageDecoder.m in Sources */,
 				08D65BCC213E23D100492DB7 /* SDCycleScrollView.m in Sources */,
+				0817A1E52179683E00C5D4AD /* TravelCell.m in Sources */,
+				0817A1E82179685200C5D4AD /* WishCell.m in Sources */,
+				0817A1DF2179680A00C5D4AD /* DeliveryModel.m in Sources */,
 				08D7E61D213B7CAE00BAAB19 /* SDWebImageManager.m in Sources */,
 				08D7E628213B7CAE00BAAB19 /* XLZoomingScrollView.m in Sources */,
 				08D7E67D213B7CDA00BAAB19 /* MJRefreshConst.m in Sources */,
@@ -1961,9 +2049,11 @@
 				081B588C215CB35000BD9C06 /* PhonePasswordViewController.m in Sources */,
 				08D7E62C213B7CAE00BAAB19 /* ZYQAssetPickerController.m in Sources */,
 				08D7E6F5213B82FF00BAAB19 /* DataSigner.m in Sources */,
+				0817A1E22179682A00C5D4AD /* TravelModel.m in Sources */,
 				08D7E676213B7CDA00BAAB19 /* MJRefreshBackGifFooter.m in Sources */,
 				08294BF421773CC500108B6A /* MineViewController.m in Sources */,
 				08D65BEA213E356D00492DB7 /* BaseViewController.m in Sources */,
+				0817A1EE2179688800C5D4AD /* MineCell.m in Sources */,
 				08EC53412150A0780008D4FA /* RegisteredViewController.m in Sources */,
 				08D7E5A9213B7CA200BAAB19 /* AFURLRequestSerialization.m in Sources */,
 				08D7E5AE213B7CA200BAAB19 /* AFNetworkActivityIndicatorManager.m in Sources */,
