@@ -11,6 +11,7 @@
 #import "EatListCell.h"
 #import "EatModel.h"
 #import "EatHomeViewController.h"
+#import "LocationViewController.h"
 
 @interface EatHomeListViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -61,6 +62,9 @@
 -(void)GjAction:(UIButton *)btn{
     
     NSLog(@"guojia");
+    LocationViewController *evc = [[LocationViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:evc];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 
