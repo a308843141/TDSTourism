@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0815636C217AC1F1001B2E5B /* MessageDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0815636B217AC1F1001B2E5B /* MessageDetailsModel.m */; };
+		0815636F217AC203001B2E5B /* MessageDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0815636E217AC203001B2E5B /* MessageDetailsCell.m */; };
+		08156372217AC212001B2E5B /* MessageDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08156371217AC212001B2E5B /* MessageDetailsViewController.m */; };
 		0817A1DC217967EC00C5D4AD /* DeliveryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1DB217967EC00C5D4AD /* DeliveryCell.m */; };
 		0817A1DF2179680A00C5D4AD /* DeliveryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1DE2179680A00C5D4AD /* DeliveryModel.m */; };
 		0817A1E22179682A00C5D4AD /* TravelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817A1E12179682A00C5D4AD /* TravelModel.m */; };
@@ -264,6 +267,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0815636A217AC1F1001B2E5B /* MessageDetailsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDetailsModel.h; sourceTree = "<group>"; };
+		0815636B217AC1F1001B2E5B /* MessageDetailsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDetailsModel.m; sourceTree = "<group>"; };
+		0815636D217AC203001B2E5B /* MessageDetailsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDetailsCell.h; sourceTree = "<group>"; };
+		0815636E217AC203001B2E5B /* MessageDetailsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDetailsCell.m; sourceTree = "<group>"; };
+		08156370217AC212001B2E5B /* MessageDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDetailsViewController.h; sourceTree = "<group>"; };
+		08156371217AC212001B2E5B /* MessageDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDetailsViewController.m; sourceTree = "<group>"; };
 		0817A1DA217967EC00C5D4AD /* DeliveryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCell.h; sourceTree = "<group>"; };
 		0817A1DB217967EC00C5D4AD /* DeliveryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCell.m; sourceTree = "<group>"; };
 		0817A1DD2179680A00C5D4AD /* DeliveryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryModel.h; sourceTree = "<group>"; };
@@ -779,6 +788,8 @@
 				08294BC721773CA600108B6A /* EatListCell.m */,
 				081810A82178856100D02E77 /* MessageCell.h */,
 				081810A92178856100D02E77 /* MessageCell.m */,
+				0815636D217AC203001B2E5B /* MessageDetailsCell.h */,
+				0815636E217AC203001B2E5B /* MessageDetailsCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -794,6 +805,8 @@
 				08294BCD21773CA600108B6A /* EatHomeViewController.m */,
 				0818109C2178716500D02E77 /* MessageViewController.h */,
 				0818109D2178716500D02E77 /* MessageViewController.m */,
+				08156370217AC212001B2E5B /* MessageDetailsViewController.h */,
+				08156371217AC212001B2E5B /* MessageDetailsViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -807,6 +820,8 @@
 				08294BD521773CA700108B6A /* EatModel.m */,
 				081810A52178854400D02E77 /* MessageModel.h */,
 				081810A62178854400D02E77 /* MessageModel.m */,
+				0815636A217AC1F1001B2E5B /* MessageDetailsModel.h */,
+				0815636B217AC1F1001B2E5B /* MessageDetailsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1985,6 +2000,7 @@
 				08D7E5B4213B7CA200BAAB19 /* UIWebView+AFNetworking.m in Sources */,
 				08D7E5B1213B7CA200BAAB19 /* UIImageView+AFNetworking.m in Sources */,
 				08D7E54E213B78C900BAAB19 /* ViewController.m in Sources */,
+				08156372217AC212001B2E5B /* MessageDetailsViewController.m in Sources */,
 				08D7E674213B7CDA00BAAB19 /* MJRefreshAutoNormalFooter.m in Sources */,
 				083CB73C215B785700CF511C /* PhoneLoginViewController.m in Sources */,
 				08D7E5B0213B7CA200BAAB19 /* UIButton+AFNetworking.m in Sources */,
@@ -2014,6 +2030,8 @@
 				08294BE221773CAF00108B6A /* DeliveryViewController.m in Sources */,
 				08D7E60D213B7CAE00BAAB19 /* FSActionSheetCell.m in Sources */,
 				08D7E67B213B7CDA00BAAB19 /* MJRefreshStateHeader.m in Sources */,
+				0815636F217AC203001B2E5B /* MessageDetailsCell.m in Sources */,
+				0815636C217AC1F1001B2E5B /* MessageDetailsModel.m in Sources */,
 				08294BDC21773CA700108B6A /* EatModel.m in Sources */,
 				08D7E6FB213B82FF00BAAB19 /* RSADataVerifier.m in Sources */,
 				08D7E60B213B7CAE00BAAB19 /* UIView+XLExtension.m in Sources */,

@@ -1,17 +1,16 @@
 //
-//  MessageViewController.m
+//  MessageDetailsViewController.m
 //  TDSTourism
 //
-//  Created by qpple on 2018/10/18.
+//  Created by qpple on 2018/10/20.
 //  Copyright © 2018 qpple. All rights reserved.
 //
 
-#import "MessageViewController.h"
-#import "MessageModel.h"
-#import "MessageCell.h"
 #import "MessageDetailsViewController.h"
+#import "MessageDetailsCell.h"
+#import "MessageModel.h"
 
-@interface MessageViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface MessageDetailsViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong) NSMutableArray *dataArray;
 
@@ -19,16 +18,15 @@
 
 @end
 
-@implementation MessageViewController
+@implementation MessageDetailsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title = @"消息";
+    // Do any additional setup after loading the view.
+    self.title = @"通知";
     [self addNavViews];
     
-    //间隙
-    UIBarButtonItem *fixedSpaceBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil]; fixedSpaceBarButtonItem.width = 10;
+    
     
     [self.view addSubview:self.MCounonTableView];
 }
@@ -47,7 +45,7 @@
 
 // 返回
 - (void)leftItemAction:(UIButton *)sender{
-    [self dismissViewControllerAnimated:NO completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
@@ -63,12 +61,12 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 82;
+    return 154;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-     MessageCell*cell = [tableView dequeueReusableCellWithIdentifier:@"MessageCell" forIndexPath:indexPath];
+    MessageDetailsCell*cell = [tableView dequeueReusableCellWithIdentifier:@"MessageCell" forIndexPath:indexPath];
     
     
     //    HomeModel *model = self.dataArray[indexPath.row];
@@ -106,9 +104,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    MessageDetailsViewController *evc = [[MessageDetailsViewController alloc] init];
-
-    [self.navigationController pushViewController:evc animated:NO];
+    //    EatHomeViewController *evc = [[EatHomeViewController alloc] init];
+    //
+    //    [self.navigationController pushViewController:evc animated:NO];
     
 }
 
@@ -128,11 +126,11 @@
         self.MCounonTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
         
         self.MCounonTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        self.MCounonTableView.backgroundColor = [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1];
+        self.MCounonTableView.backgroundColor = [UIColor colorWithRed:243.0/255.0 green:244.0/255.0 blue:249.0/255.0 alpha:1];
         
         self.MCounonTableView.delegate = self;
         self.MCounonTableView.dataSource = self;
-        [self.MCounonTableView registerClass:[MessageCell class] forCellReuseIdentifier:@"MessageCell"];
+        [self.MCounonTableView registerClass:[MessageDetailsCell class] forCellReuseIdentifier:@"MessageCell"];
         
     }
     return _MCounonTableView;
