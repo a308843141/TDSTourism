@@ -11,6 +11,7 @@
 #import "HomeCell.h"
 #import "HomeModel.h"
 #import "EatHomeListViewController.h"
+#import "MessageViewController.h"
 
 @interface HomeViewController ()<SDCycleScrollViewDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -181,7 +182,9 @@
 
 //消息
 -(void)XxAction:(UIButton *)btn{
-    
+    MessageViewController *evc = [[MessageViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:evc];
+    [self presentViewController:nav animated:YES completion:nil];
     
 }
 

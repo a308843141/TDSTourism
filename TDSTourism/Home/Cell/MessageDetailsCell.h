@@ -1,17 +1,17 @@
 //
-//  MessageCell.h
+//  MessageDetailsCell.h
 //  TDSTourism
 //
-//  Created by qpple on 2018/10/18.
+//  Created by qpple on 2018/10/20.
 //  Copyright © 2018 qpple. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "MessageModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MessageCell : UITableViewCell
+@interface MessageDetailsCell : UITableViewCell
+
 
 @property (strong, nonatomic) UILabel *Name_Label;
 
@@ -20,10 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) UILabel *Two_Label;
 
 @property (strong, nonatomic) UIImageView *OneImage;
-
-@property (strong, nonatomic) UIView *ImageView;
-
-@property(nonatomic,strong) MessageModel *model;
 
 @end
 
