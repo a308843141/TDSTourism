@@ -12,6 +12,7 @@
 #import "HomeModel.h"
 #import "EatHomeListViewController.h"
 #import "MessageViewController.h"
+#import "FlightViewController.h"
 
 @interface HomeViewController ()<SDCycleScrollViewDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -176,7 +177,9 @@
 //航班
 -(void)LoginAction:(UIButton *)btn{
     //1
-    
+    FlightViewController *evc = [[FlightViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:evc];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 

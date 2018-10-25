@@ -98,7 +98,7 @@
 - (NSInteger)numberOfSectionsInTableView:( UITableView *)tableView
 {
     
-    return [ _AbcSort count ];;
+    return [ _AbcSort count ];
     
 }
 

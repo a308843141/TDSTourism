@@ -32,7 +32,7 @@
     _webView.dataDetectorTypes = UIDataDetectorTypeAll;
     
     // 2.创建URL
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://192.168.1.111/news/39"]];
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://192.168.1.105/news/39"]];
 //    NSURL *url =[NSURL URLWithString:self.UrlStr];
     // 3.创建Request
     NSURLRequest *request =[NSURLRequest requestWithURL:url];
