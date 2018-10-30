@@ -8,6 +8,8 @@
 
 #import "FlightViewController.h"
 #import "HomeCell.h"
+#import "FlightlListViewController.h"
+#import "FlightlDetailsViewController.h"
 
 @interface FlightViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -188,12 +190,15 @@
 //托运
 -(void)FAction:(UIButton *)btn{
     //1
+    FlightlDetailsViewController *Fvc = [[FlightlDetailsViewController alloc] init];
+    [self.navigationController pushViewController:Fvc animated:YES];
     
 }
 //搜索
 - (void)doTap:(NSString *)str{
     NSLog(@"111");
-    
+    FlightlListViewController *Fvc = [[FlightlListViewController alloc] init];
+    [self.navigationController pushViewController:Fvc animated:NO];
 }
 
 

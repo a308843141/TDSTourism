@@ -11,12 +11,13 @@
 
 //请求网址
 #define baseUrl  @"http://192.168.1.157/"
-
+#import "WXApi.h"
+#import "WXApiManager.h"
+#import "RecommendView.h"
 #import "LMHttpRequest.h"
 #import "FormatCheck.h"
 #import "UIViewController+HUD.h"
-//#import "WXApi.h"
-//#import "WXApiManager.h"
+
 
 #import "CC_Request.h"
 

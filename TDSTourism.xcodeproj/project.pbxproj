@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049CA1B82188576D005A6AE9 /* RecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CA1B42188576C005A6AE9 /* RecommendView.m */; };
+		049CA1B92188576D005A6AE9 /* CC_FSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CA1B52188576D005A6AE9 /* CC_FSView.m */; };
+		049CA1BA2188576D005A6AE9 /* RecommendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049CA1B62188576D005A6AE9 /* RecommendView.xib */; };
+		049CA1BF218857BE005A6AE9 /* FlightlDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CA1BB218857BE005A6AE9 /* FlightlDetailsViewController.m */; };
+		049CA1C0218857BE005A6AE9 /* FlightlListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CA1BD218857BE005A6AE9 /* FlightlListViewController.m */; };
 		08134FCD2181447900D20EF8 /* FlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08134FCC2181447900D20EF8 /* FlightViewController.m */; };
 		08134FD8218151E800D20EF8 /* Shape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08134FD6218151E800D20EF8 /* Shape@3x.png */; };
 		08134FD9218151E800D20EF8 /* Shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08134FD7218151E800D20EF8 /* Shape@2x.png */; };
@@ -294,6 +299,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049CA1B32188576C005A6AE9 /* RecommendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendView.h; sourceTree = "<group>"; };
+		049CA1B42188576C005A6AE9 /* RecommendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendView.m; sourceTree = "<group>"; };
+		049CA1B52188576D005A6AE9 /* CC_FSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC_FSView.m; sourceTree = "<group>"; };
+		049CA1B62188576D005A6AE9 /* RecommendView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendView.xib; sourceTree = "<group>"; };
+		049CA1B72188576D005A6AE9 /* CC_FSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC_FSView.h; sourceTree = "<group>"; };
+		049CA1BB218857BE005A6AE9 /* FlightlDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightlDetailsViewController.m; sourceTree = "<group>"; };
+		049CA1BC218857BE005A6AE9 /* FlightlListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightlListViewController.h; sourceTree = "<group>"; };
+		049CA1BD218857BE005A6AE9 /* FlightlListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightlListViewController.m; sourceTree = "<group>"; };
+		049CA1BE218857BE005A6AE9 /* FlightlDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightlDetailsViewController.h; sourceTree = "<group>"; };
 		08134FCB2181447900D20EF8 /* FlightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightViewController.h; sourceTree = "<group>"; };
 		08134FCC2181447900D20EF8 /* FlightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightViewController.m; sourceTree = "<group>"; };
 		08134FD6218151E800D20EF8 /* Shape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shape@3x.png"; sourceTree = "<group>"; };
@@ -881,6 +895,10 @@
 				08294BCB21773CA600108B6A /* HomeViewController.m */,
 				08134FCB2181447900D20EF8 /* FlightViewController.h */,
 				08134FCC2181447900D20EF8 /* FlightViewController.m */,
+				049CA1BE218857BE005A6AE9 /* FlightlDetailsViewController.h */,
+				049CA1BB218857BE005A6AE9 /* FlightlDetailsViewController.m */,
+				049CA1BC218857BE005A6AE9 /* FlightlListViewController.h */,
+				049CA1BD218857BE005A6AE9 /* FlightlListViewController.m */,
 				08294BCE21773CA700108B6A /* EatHomeListViewController.h */,
 				08294BCC21773CA600108B6A /* EatHomeListViewController.m */,
 				08294BD021773CA700108B6A /* EatHomeViewController.h */,
@@ -1858,6 +1876,11 @@
 		86145DCC217981E1003EA17F /* menuView */ = {
 			isa = PBXGroup;
 			children = (
+				049CA1B72188576D005A6AE9 /* CC_FSView.h */,
+				049CA1B52188576D005A6AE9 /* CC_FSView.m */,
+				049CA1B32188576C005A6AE9 /* RecommendView.h */,
+				049CA1B42188576C005A6AE9 /* RecommendView.m */,
+				049CA1B62188576D005A6AE9 /* RecommendView.xib */,
 				86145DCD217981E1003EA17F /* MenuView.m */,
 				86145DCE217981E1003EA17F /* MenuView.h */,
 			);
@@ -2084,6 +2107,7 @@
 				08D7E611213B7CAE00BAAB19 /* FSActionSheet_cancel@3x.png in Resources */,
 				08D7E686213B7DB600BAAB19 /* MBProgressHUD.bundle in Resources */,
 				08134FD9218151E800D20EF8 /* Shape@2x.png in Resources */,
+				049CA1BA2188576D005A6AE9 /* RecommendView.xib in Resources */,
 				08294C8C21773D5400108B6A /* home-lingdang.png in Resources */,
 				08134FDE218156FB00D20EF8 /* shipping.png in Resources */,
 				08134FE42181586900D20EF8 /* Group 38.png in Resources */,
@@ -2166,6 +2190,7 @@
 				08D7E67F213B7CDA00BAAB19 /* UIScrollView+MJRefresh.m in Sources */,
 				08D7E627213B7CAE00BAAB19 /* XLProgressView.m in Sources */,
 				08D65BC2213E1DFD00492DB7 /* TDSViewController.m in Sources */,
+				049CA1B92188576D005A6AE9 /* CC_FSView.m in Sources */,
 				08D65BCB213E23D100492DB7 /* SDCollectionViewCell.m in Sources */,
 				0817A1F1217968A500C5D4AD /* MineModel.m in Sources */,
 				08D7E559213B78C900BAAB19 /* main.m in Sources */,
@@ -2184,6 +2209,7 @@
 				08D7E619213B7CAE00BAAB19 /* SDWebImageCompat.m in Sources */,
 				08D7E623213B7CAE00BAAB19 /* UIImageView+HighlightedWebCache.m in Sources */,
 				8666039D217DB5F60079D673 /* InternationModel.m in Sources */,
+				049CA1BF218857BE005A6AE9 /* FlightlDetailsViewController.m in Sources */,
 				08D7E6F9213B82FF00BAAB19 /* openssl_wrapper.m in Sources */,
 				08294BE221773CAF00108B6A /* DeliveryViewController.m in Sources */,
 				08D7E60D213B7CAE00BAAB19 /* FSActionSheetCell.m in Sources */,
@@ -2192,6 +2218,7 @@
 				0815636C217AC1F1001B2E5B /* MessageDetailsModel.m in Sources */,
 				08294BDC21773CA700108B6A /* EatModel.m in Sources */,
 				08D7E6FB213B82FF00BAAB19 /* RSADataVerifier.m in Sources */,
+				049CA1C0218857BE005A6AE9 /* FlightlListViewController.m in Sources */,
 				08D7E60B213B7CAE00BAAB19 /* UIView+XLExtension.m in Sources */,
 				08D7E61A213B7CAE00BAAB19 /* SDWebImageDecoder.m in Sources */,
 				08D65BCC213E23D100492DB7 /* SDCycleScrollView.m in Sources */,
@@ -2216,6 +2243,7 @@
 				08D7E66E213B7CDA00BAAB19 /* MJRefreshAutoFooter.m in Sources */,
 				081B588F215CC3EC00BD9C06 /* ValidationPhoneViewController.m in Sources */,
 				088E5CD621829C2100774320 /* AFSecurityPolicy.m in Sources */,
+				049CA1B82188576D005A6AE9 /* RecommendView.m in Sources */,
 				08D7E61C213B7CAE00BAAB19 /* SDWebImageDownloaderOperation.m in Sources */,
 				08D7E626213B7CAE00BAAB19 /* XLPhotoBrowser.m in Sources */,
 				08D7E640213B7CBD00BAAB19 /* JSONKit.m in Sources */,
@@ -2432,7 +2460,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A8HC7N2SB8;
+				DEVELOPMENT_TEAM = A8ZQRVTRFV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2455,7 +2483,7 @@
 					"$(PROJECT_DIR)/TDSTourism/TDSLibrary/Libs/支付分享/weChat",
 				);
 				OTHER_LDFLAGS = "-fobjc-arc";
-				PRODUCT_BUNDLE_IDENTIFIER = TDSTourism.TDSTourism;
+				PRODUCT_BUNDLE_IDENTIFIER = suliancc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2470,7 +2498,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A8HC7N2SB8;
+				DEVELOPMENT_TEAM = A8ZQRVTRFV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2493,7 +2521,7 @@
 					"$(PROJECT_DIR)/TDSTourism/TDSLibrary/Libs/支付分享/weChat",
 				);
 				OTHER_LDFLAGS = "-fobjc-arc";
-				PRODUCT_BUNDLE_IDENTIFIER = TDSTourism.TDSTourism;
+				PRODUCT_BUNDLE_IDENTIFIER = suliancc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
