@@ -9,9 +9,11 @@
 #import "FlightlDetailsViewController.h"
 #import "CC_FSView.h"
 
-@interface FlightlDetailsViewController ()
+@interface FlightlDetailsViewController ()<UIWebViewDelegate>
 
 @property (nonatomic,strong)CC_FSView *FSView;
+
+@property (nonatomic,strong)UIWebView *webView;
 
 @end
 
@@ -23,6 +25,26 @@
     
     self.title = @"详情";
     [self addNavViews];
+    [self createui];
+    
+}
+
+-(void)createui{
+    
+    
+    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    _webView.dataDetectorTypes = UIDataDetectorTypeAll;
+    
+    // 2.创建URL
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://192.168.1.105/news/39"]];
+    //    NSURL *url =[NSURL URLWithString:self.UrlStr];
+    // 3.创建Request
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    // 4.加载网页
+    [_webView loadRequest:request];
+    
+    [self.view addSubview:_webView];
+    
 }
 
 - (void)addNavViews{
