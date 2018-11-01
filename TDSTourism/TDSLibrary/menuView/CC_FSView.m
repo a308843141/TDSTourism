@@ -93,7 +93,7 @@
     [UIView animateWithDuration:0.3 animations:^{
         self.alpha = 1.0;
         
-        [backview setFrame:CGRectMake(0, kScreenHeight, self.frame.size.width, kScreenHeight)];
+        [self->backview setFrame:CGRectMake(0, kScreenHeight, self.frame.size.width, kScreenHeight)];
     } completion:nil];
     
 }
