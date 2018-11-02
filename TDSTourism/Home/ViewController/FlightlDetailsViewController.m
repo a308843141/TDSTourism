@@ -8,6 +8,8 @@
 
 #import "FlightlDetailsViewController.h"
 #import "CC_FSView.h"
+#import "UIBarButtonItem+XYMenu.h"
+#import "ShareView.h"
 
 @interface FlightlDetailsViewController ()<UIWebViewDelegate>
 
@@ -58,25 +60,44 @@
     [leftButton addTarget:self action:@selector(leftItemAction:) forControlEvents:UIControlEventTouchUpInside];
     
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn addTarget:self action:@selector(RightButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setImage:[UIImage imageNamed:@"详情更多"] forState:UIControlStateNormal];
-    
-    [btn sizeToFit];
-    UIBarButtonItem *RightItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
-    self.navigationItem.rightBarButtonItem = RightItem;
+    UIImage *rightImage = [[UIImage imageNamed:@"详情更多"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc]initWithImage:rightImage style:UIBarButtonItemStylePlain target:self action:@selector(RightButtonAction:)];
+    self.navigationItem.rightBarButtonItem = rightBarItem;
     
 }
 
-- (void)RightButtonAction:(UIButton *)RightButtonAction{
-
-    self.FSView= [[CC_FSView alloc]init];
-//    self.FSView.passTimeDelegate = self;
-    
-    [self.FSView showInView:self.view];
-    
+- (void)RightButtonAction:(id)sender{
+    UIBarButtonItem *item = (UIBarButtonItem *)sender;
+    NSArray *imageArr = @[@"详情收 藏", @"详情分享"];
+    NSArray *titleArr = @[@"收藏", @"分享"];
+    [item xy_showMenuWithImages:imageArr titles:titleArr menuType:XYMenuRightNavBar currentNavVC:self.navigationController withItemClickIndex:^(NSInteger index) {
+        NSLog(@"index    %ld",(long)index);
+        [self selectIndex:index];
+    }];
 }
 
+//点击的第几个、、、、1收藏   2 分享
+-(void)selectIndex:(NSInteger)index
+{
+    switch (index) {
+        case 1:
+            
+            break;
+        case 2:
+            [self shareClick];
+            
+            break;
+        default:
+            break;
+    }
+}
+
+-(void)shareClick
+{
+    ShareView *view = [[[NSBundle mainBundle]loadNibNamed:@"ShareView" owner:self options:nil]objectAtIndex:0];
+    view.frame = CGRectMake(0, 0, kScreenWidth, kScreenHeight);
+    [[[UIApplication sharedApplication].delegate window]addSubview:view];
+}
 
 // 返回
 - (void)leftItemAction:(UIButton *)sender{

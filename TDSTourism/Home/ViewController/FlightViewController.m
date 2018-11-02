@@ -198,7 +198,8 @@
 - (void)doTap:(NSString *)str{
     NSLog(@"111");
     FlightlListViewController *Fvc = [[FlightlListViewController alloc] init];
-    [self.navigationController pushViewController:Fvc animated:NO];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:Fvc];
+    [self.navigationController pushViewController:nav animated:NO];
 }
 
 
