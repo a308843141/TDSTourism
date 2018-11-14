@@ -62,9 +62,9 @@
 -(void)GjAction:(UIButton *)btn{
     
     NSLog(@"guojia");
-//    LocationViewController *evc = [[LocationViewController alloc] init];
+    LocationViewController *evc = [[LocationViewController alloc] init];
 //    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:evc];
-//    [self presentViewController:nav animated:YES completion:nil];
+    [self.navigationController pushViewController:evc animated:NO];
 }
 
 

@@ -2078,7 +2078,7 @@
 				TargetAttributes = {
 					08D7E545213B78C900BAAB19 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					08D7E55D213B78C900BAAB19 = {
 						CreatedOnToolsVersion = 9.2;
@@ -2584,8 +2584,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chengwei xu (UYD355U7DZ)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = A8ZQRVTRFV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2609,10 +2609,10 @@
 					"$(PROJECT_DIR)/TDSTourism/TDSLibrary/Libs/支付分享/weChat",
 				);
 				OTHER_LDFLAGS = "-fobjc-arc";
-				PRODUCT_BUNDLE_IDENTIFIER = suliancc;
+				PRODUCT_BUNDLE_IDENTIFIER = suliancheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = suliancheng;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2622,8 +2622,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chengwei xu (UYD355U7DZ)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = A8ZQRVTRFV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2647,10 +2647,10 @@
 					"$(PROJECT_DIR)/TDSTourism/TDSLibrary/Libs/支付分享/weChat",
 				);
 				OTHER_LDFLAGS = "-fobjc-arc";
-				PRODUCT_BUNDLE_IDENTIFIER = suliancc;
+				PRODUCT_BUNDLE_IDENTIFIER = suliancheng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = suliancheng;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

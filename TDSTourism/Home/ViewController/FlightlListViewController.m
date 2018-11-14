@@ -20,7 +20,6 @@
 @property (nonatomic,strong)ZCSearchBar *searchBar;
 @property (nonatomic, strong) UITableView *WCounonTableView;
 
-
 @end
 
 @implementation FlightlListViewController

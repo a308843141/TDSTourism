@@ -26,8 +26,6 @@
     self.title = @"通知";
     [self addNavViews];
     
-    
-    
     [self.view addSubview:self.MCounonTableView];
 }
 
